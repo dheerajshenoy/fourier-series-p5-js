@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <script src="p5/p5.min.js"></script>
+       <script src="fourier_series.js"></script>
+ <link rel="stylesheet" type="text/css" href="css.css" />
+    </head>
+    <body>
+        <center><h1>Fourier Series Epicycles Visualization</h1></center>
+        <center>
+        <div id="canvas"></div>
+        </center>
+        <br>
+        <button id="pauseButton" onclick="pauseCanvas()">PAUSE</button>
+
+        <br>
+        <br>
+        <table>
+            <tr>
+                <td><h2 id="nsliderLabel">N = </h2></td>
+                <td><h2 id="nsliderValue"></h2></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td><h2 id="ampLabel">Amplitude = </h2></td>
+                <td><h2 id="ampValue"></h2></td>
+            </tr>
+        </table>
+    </body>
+</html>
